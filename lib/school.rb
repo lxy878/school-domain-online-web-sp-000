@@ -20,9 +20,11 @@ class School
 
   def sort
     # for some reason, the names in 9th grade do not sort
-    @roster[9]=@roster[9].sort
-    @roster.each do |grade, students|
-      students.sort
-    end
+  #   @roster[9]=@roster[9].sort
+  #   @roster.each do |grade, students|
+  #     students.sort
+  #   end
+    @roster.keys.each {|key| roster[key].sort}
   end
+
 end
