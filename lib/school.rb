@@ -19,7 +19,7 @@ class School
   end
 
   def sort
-    for some reason, the names in 9th grade do not sort
+    # for some reason, the names in 9th grade do not sort
     @roster[9]=@roster[9].sort
     @roster.each do |grade, students|
       students.sort
