@@ -24,7 +24,7 @@ class School
   #   @roster.each do |grade, students|
   #     students.sort
   #   end
-    @roster.keys.each {|key| @roster[key].sort}
+    @roster.keys.each {|key| puts @roster[key].sort}
   end
 
 end
